@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ad0b690c-a698-4ce0-9b50-3069e7e8660d}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>mandelbulb.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="borromean.py" />
+    <None Include="donut.py" />
+    <None Include="dragoncurve.py" />
+    <None Include="drawing.py" />
+    <None Include="glasscube.py" />
+    <None Include="hilbert.py" />
+    <None Include="klein.py" />
+    <None Include="klein2.py" />
+    <None Include="knot.py" />
+    <None Include="knot2.py" />
+    <None Include="lforest.py" />
+    <None Include="lsystem.py" />
+    <None Include="ltree.py" />
+    <None Include="mandelbrot.py" />
+    <None Include="mc.py" />
+    <None Include="mcdragoncurve.py" />
+    <None Include="mcpi\block.py" />
+    <None Include="mcpi\connection.py" />
+    <None Include="mcpi\entity.py" />
+    <None Include="mcpi\event.py" />
+    <None Include="mcpi\minecraft.py" />
+    <None Include="mcpi\util.py" />
+    <None Include="mcpi\vec3.py" />
+    <None Include="mcpi\__init__.py" />
+    <None Include="mcturtle.py" />
+    <None Include="mengersponge.py" />
+    <None Include="sphere.py" />
+    <None Include="polyhedron.py" />
+    <None Include="scan.py" />
+    <None Include="server.py" />
+    <None Include="sierpinski3d.py" />
+    <None Include="simpletree.py" />
+    <None Include="snowflake.py" />
+    <None Include="spacefill.py" />
+    <None Include="squarecurve.py" />
+    <None Include="star.py" />
+    <None Include="symmetry.py" />
+    <None Include="turtle.py" />
+    <None Include="turtledonut.py" />
+    <None Include="vehicle.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mcpi\" />
+    <Folder Include="models\" />
+    <Folder Include="vehicles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="benchmark.py" />
+    <Compile Include="blocks_to_bombs.py" />
+    <Compile Include="board2d.py" />
+    <Compile Include="bridge.py" />
+    <Compile Include="brooksc_findpos.py" />
+    <Compile Include="brooksc_tntsnake.py" />
+    <Compile Include="camera.py" />
+    <Compile Include="castle.py" />
+    <Compile Include="chess.py" />
+    <Compile Include="clock.py" />
+    <Compile Include="colors.py" />
+    <Compile Include="console.py" />
+    <Compile Include="danielbates_setblockdemo.py" />
+    <Compile Include="davef21370_maze.py" />
+    <Compile Include="digitalclock.py" />
+    <Compile Include="dither.py" />
+    <Compile Include="dna.py" />
+    <Compile Include="earth.py" />
+    <Compile Include="EarthQuake.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="egg.py" />
+    <Compile Include="explosify.py" />
+    <Compile Include="fancytree.py" />
+    <Compile Include="fonts.py" />
+    <Compile Include="gf_drawbuilding.py" />
+    <Compile Include="globe.py" />
+    <Compile Include="goldcollector.py" />
+    <Compile Include="grenade.py" />
+    <Compile Include="hanoi.py" />
+    <Compile Include="helloworld.py" />
+    <Compile Include="import.py" />
+    <Compile Include="input.py" />
+    <Compile Include="interpreter.py" />
+    <Compile Include="jjinux_sierpinski_triangle.py" />
+    <Compile Include="knot3.py" />
+    <Compile Include="life.py" />
+    <Compile Include="mandelbulb.py" />
+    <Compile Include="mcpi\nbt.py" />
+    <Compile Include="mcpi\security-template.py" />
+    <Compile Include="mcpi\settings.py" />
+    <Compile Include="mcpi\vpython_minecraft.py" />
+    <Compile Include="mine.py" />
+    <Compile Include="minetris.py" />
+    <Compile Include="mineturtle.py" />
+    <Compile Include="mobius.py" />
+    <Compile Include="mp_server_config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="neurosky.py" />
+    <Compile Include="nt7s_sphere.py" />
+    <Compile Include="pong.py" />
+    <Compile Include="pysanka.py" />
+    <Compile Include="render.py" />
+    <Compile Include="sign.py" />
+    <Compile Include="simplefractaltree.py" />
+    <Compile Include="snake.py" />
+    <Compile Include="spiral.py" />
+    <Compile Include="stuffaboutcode_basics.py" />
+    <Compile Include="stuffaboutcode_bridge.py" />
+    <Compile Include="stuffaboutcode_clock.py" />
+    <Compile Include="stuffaboutcode_hideandseek.py" />
+    <Compile Include="stuffaboutcode_snake.py" />
+    <Compile Include="teleport.py" />
+    <Compile Include="text.py" />
+    <Compile Include="top.py" />
+    <Compile Include="toschematic.py" />
+    <Compile Include="trefoil.py" />
+    <Compile Include="trefoil2.py" />
+    <Compile Include="turtleconsole.py" />
+    <Compile Include="updateallscripts.py" />
+    <Compile Include="vehicles\TIE_Fighter.py" />
+    <Compile Include="vehicles\X-Wing_Fighter.py" />
+    <Compile Include="whereami.py" />
+    <Compile Include="win32move.py" />
+    <Compile Include="writebook.py" />
+    <Compile Include="zhuowei_rainbow.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cloudyearth.jpg" />
+    <Content Include="debug.txt" />
+    <Content Include="mcpi\mcpi_protocol_spec.txt" />
+    <Content Include="models\1701d.txt" />
+    <Content Include="models\atat.txt" />
+    <Content Include="models\bop.txt" />
+    <Content Include="models\cessna.txt" />
+    <Content Include="models\City_Ground-Notts.txt" />
+    <Content Include="models\COPYRIGHT" />
+    <Content Include="models\cube.txt" />
+    <Content Include="models\dragon.txt" />
+    <Content Include="models\ds9.txt" />
+    <Content Include="models\head.txt" />
+    <Content Include="models\humanoid_quad.txt" />
+    <Content Include="models\jemcruiser.txt" />
+    <Content Include="models\knight.txt" />
+    <Content Include="models\neghvar.txt" />
+    <Content Include="models\NY_LIL.txt" />
+    <Content Include="models\RaspberryPi.txt" />
+    <Content Include="models\redstardestroyer.txt" />
+    <Content Include="models\shuttle.txt" />
+    <Content Include="models\skyscraper.txt" />
+    <Content Include="models\stardestroyer.txt" />
+    <Content Include="models\yt1300.txt" />
+    <Content Include="nasaearth.jpg" />
+    <Content Include="ovalegg.png" />
+    <Content Include="pysanka.jpg" />
+    <Content Include="vehicles\readme.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
