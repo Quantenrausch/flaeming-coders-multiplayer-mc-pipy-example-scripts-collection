@@ -144,11 +144,17 @@
     <Compile Include="win32move.py" />
     <Compile Include="writebook.py" />
     <Compile Include="zhuowei_rainbow.py" />
+    <Compile Include="_sunfish.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="cloudyearth.jpg" />
     <Content Include="debug.txt" />
+    <Content Include="earthquake.ogg" />
+    <Content Include="lava.ogg" />
     <Content Include="mcpi\mcpi_protocol_spec.txt" />
+    <Content Include="mcpi\minecraft-pi-edition-LICENSE.txt" />
+    <Content Include="mcpi\README.md" />
+    <Content Include="meteor.ogg" />
     <Content Include="models\1701d.txt" />
     <Content Include="models\atat.txt" />
     <Content Include="models\bop.txt" />
@@ -173,7 +179,11 @@
     <Content Include="nasaearth.jpg" />
     <Content Include="ovalegg.png" />
     <Content Include="pysanka.jpg" />
+    <Content Include="pysanka2.jpg" />
+    <Content Include="README.md" />
     <Content Include="vehicles\readme.md" />
+    <Content Include="vehicles\TIE_Fighter.schematic" />
+    <Content Include="vehicles\X-Wing_Fighter.schematic" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
