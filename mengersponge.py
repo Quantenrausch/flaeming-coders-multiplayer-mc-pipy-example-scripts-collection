@@ -40,7 +40,7 @@ def slice(x0,y0,z0,length):
                 if x+y+z >= 1.5*length:
                     mc.setBlock(x0+x,y0+y,z0+z,block.AIR)
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 playerPos = mc.player.getPos()
 if settings.isPE:

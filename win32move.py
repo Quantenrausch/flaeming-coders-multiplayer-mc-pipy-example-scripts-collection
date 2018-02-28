@@ -3,7 +3,7 @@ from time import sleep
 from sys import argv
 import input
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 player = True

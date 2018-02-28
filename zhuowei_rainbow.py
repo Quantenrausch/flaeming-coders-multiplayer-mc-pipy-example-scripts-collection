@@ -11,7 +11,7 @@ from math import *
 
 colors = [14, 1, 4, 5, 3, 11, 10]
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 height = 60
 

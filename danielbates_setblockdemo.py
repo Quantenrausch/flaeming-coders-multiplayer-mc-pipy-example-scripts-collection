@@ -384,7 +384,7 @@ def clear(shape, transform=identity()):
   """Remove any non-air blocks in the given shape."""
   fillshape(shape,transform,block.AIR)
 
-from mp_server_config import *
+from _mp_ds_config import *
 
 def main():
 	global mc

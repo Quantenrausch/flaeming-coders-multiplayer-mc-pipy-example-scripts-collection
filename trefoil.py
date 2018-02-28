@@ -20,7 +20,7 @@ def ball(x0,y0,z0,r,block_type,done):
                 done.add((x0+x,y0+y,z0+z))
 
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 playerPos = mc.player.getPos()
 

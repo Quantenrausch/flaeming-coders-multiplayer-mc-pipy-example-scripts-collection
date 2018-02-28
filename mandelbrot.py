@@ -125,7 +125,7 @@ def getInfo():
              formatComplex(toComplex(centerMC.x - SIZE/2, centerMC.z - SIZE/2))+" to "+
              formatComplex(toComplex(centerMC.x + SIZE/2 - 1, centerMC.z + SIZE/2 - 1)) )
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 centerMC = mc.player.getPos()
 centerMC.ifloor()

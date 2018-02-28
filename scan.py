@@ -71,7 +71,7 @@ def restore(vehicle,name,pos):
     vehicle.draw(pos.x,pos.y,pos.z,vehicle.baseAngle)
     mc.postToChat('Done')
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 basePos = mc.player.getTilePos()
 rot = mc.player.getRotation()

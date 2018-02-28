@@ -1,8 +1,10 @@
+# https://crazysqueak.wordpress.com/2015/11/29/disasters-minecraft/
+
 import mcpi.minecraft as minc
 from mine import *
 import mcpi.block as block
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 import random, time, pygame

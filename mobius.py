@@ -17,7 +17,7 @@ def draw_surface(xf,yf,zf,a0,a1,asteps,b0,b1,bsteps,ox,oy,oz,scalex,scaley,scale
 #        print a,b,ox+x * scalex, oy+y * scaley, oz+z * scalez
         mc.setBlock(ox+x * scalex, oy+y * scaley, oz+z * scalez, mcblock, mcmeta)
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 playerPos = mc.player.getPos()
 

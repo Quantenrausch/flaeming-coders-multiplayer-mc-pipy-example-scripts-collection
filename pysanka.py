@@ -48,7 +48,7 @@ def getPixel(image, x, y, dither=None):
     return colors.rgbToBlock(rgb)[0]
 
 if __name__ == '__main__':    
-    from mp_server_config import *
+    from _mp_ds_config import *
     mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
     if len(sys.argv) > 1:

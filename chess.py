@@ -350,7 +350,7 @@ def animateMove(rowColMove):
     drawSquare(pos1[0],pos1[1])
     drawSquare(pos2[0],pos2[1])
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 options = ''.join(sys.argv[1:])
 black = 'b' in options

@@ -175,7 +175,7 @@ class Board2D(object):
 if __name__ == '__main__': 
 	import time
 
-	from mp_server_config import *
+	from _mp_ds_config import *
 	mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 	board = Board2D(mc, 30, 20, horizontal=True)
 	board.fill(block.STAINED_GLASS_LIGHT_BLUE)

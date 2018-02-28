@@ -6,7 +6,7 @@ from mine import *
 from random import *
 from time import *
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 pos = mc.player.getTilePos()
 

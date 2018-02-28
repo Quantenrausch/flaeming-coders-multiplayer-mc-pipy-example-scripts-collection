@@ -24,7 +24,7 @@ def book(title=None, pages=["page 1", "page 2"], author=None):
     out += "]}}}"
     return out
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 pos = mc.player.getTilePos()

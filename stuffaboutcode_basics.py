@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     #Connect to minecraft by creating the minecraft object
     # - minecraft needs to be running and in a game
-    from mp_server_config import *
+    from _mp_ds_config import *
     mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
     #Post a message to the minecraft chat window

@@ -21,7 +21,7 @@ def draw_donut(mcx,mcy,mcz,R,r,mcblock):
                if (ring_dist_sq + z**2 <= r**2):
                   mc.setBlock(mcx+x, mcy+z, mcz+y, mcblock)
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 playerPos = mc.player.getPos()

@@ -17,7 +17,7 @@ def egg(block=block.GOLD_BLOCK, h=40, a=2.5, b=1, c=0.1):
                         theta = atan2(z,x)
                     yield (x,y,z,block,theta)
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 if len(sys.argv) >= 2:

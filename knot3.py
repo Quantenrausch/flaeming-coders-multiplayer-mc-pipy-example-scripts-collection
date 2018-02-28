@@ -29,7 +29,7 @@ def ditheredBall(x0,y0,z0,r,rgb,done):
                 mc.setBlock(x0+x,y0+y,z0+z,colors.rgbToBlock(rgb, randomDither=30))
                 done.add((x0+x,y0+y,z0+z))
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 playerPos = mc.player.getTilePos()
 

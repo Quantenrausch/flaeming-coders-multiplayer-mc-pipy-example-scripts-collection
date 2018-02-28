@@ -6,7 +6,7 @@ import input
 
 width = 30
 height = 20
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 board = Board2D(mc, width, height)
 board.fill(block.AIR)

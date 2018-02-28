@@ -9,7 +9,7 @@ import time
 
 
 if __name__ == "__main__":
-    from mp_server_config import *
+    from _mp_ds_config import *
     mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 #    mc.postToChat("Flattening surface")
 #    mc.setBlocks(-128,0,-128,128,64,128,0)

@@ -13,7 +13,7 @@ def replace(mcx,mcy,mcz,R,mcblock):
             if (x**2 + y**2 + z**2 <= R**2 and mc.getBlock(mcx+x,mcy+y,mcz+z) != block.AIR.id):
                 mc.setBlock(mcx+x,mcy+y,mcz+z,mcblock)
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 playerPos = mc.player.getPos()

@@ -113,7 +113,7 @@
     <Compile Include="minetris.py" />
     <Compile Include="mineturtle.py" />
     <Compile Include="mobius.py" />
-    <Compile Include="mp_server_config.py">
+    <Compile Include="_mp_ds_config.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="neurosky.py" />

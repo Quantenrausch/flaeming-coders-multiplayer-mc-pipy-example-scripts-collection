@@ -17,7 +17,7 @@ def draw_spiral(mcx,mcy,mcz,major_radius,minor_radius,height,period,phase,block_
     circle_center_z = mcz + major_radius*math.sin(theta)
     draw_horizontal_disc(circle_center_x, mcy + y, circle_center_z, minor_radius, block_type, meta)
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 playerPos = mc.player.getPos()

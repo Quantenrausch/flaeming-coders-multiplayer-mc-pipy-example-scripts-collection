@@ -63,7 +63,7 @@ def getXYZ(path, t1):
             return xyz
     return path[-1][1]
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 try:

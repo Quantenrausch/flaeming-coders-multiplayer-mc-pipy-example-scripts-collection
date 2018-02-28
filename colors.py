@@ -195,7 +195,7 @@ def imageToBlocks(getPixel, width, height, palette=opaquePalette, dither=None):
 
 if __name__ == '__main__':
 	from mine import Minecraft
-	from mp_server_config import *
+	from _mp_ds_config import *
 	mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 	pos = mc.player.getTilePos()
 	r = 50

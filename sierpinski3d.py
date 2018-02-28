@@ -52,7 +52,7 @@ def sierpinski(height, x,y,z, level):
         tetrahedra = out
     return tetrahedra
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 d = drawing.Drawing(mc)
 pos = mc.player.getPos()

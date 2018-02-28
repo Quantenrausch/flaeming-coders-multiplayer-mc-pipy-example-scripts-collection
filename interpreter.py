@@ -8,7 +8,7 @@ from mine import *
 import sys
 import os
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 mc.postToChat("Python interpreter "+sys.executable+" "+sys.version)
 

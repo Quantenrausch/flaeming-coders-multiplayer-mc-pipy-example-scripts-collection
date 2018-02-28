@@ -139,7 +139,7 @@ def draw():
     mc.postToChat("Rendered")
 
 if __name__ == '__main__':
-	from mp_server_config import *
+	from _mp_ds_config import *
 	mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 	startPos = mc.player.getTilePos()
 	cornerMC = startPos + Vec3(1,0,1)

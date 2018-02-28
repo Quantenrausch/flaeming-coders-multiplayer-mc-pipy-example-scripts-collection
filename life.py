@@ -67,7 +67,7 @@ def life(mc,x0,y0,z0,width,height,empty=block.AIR,full=block.GOLD_BLOCK,delay=0.
        generation += 1
 
 if __name__=='__main__':
-    from mp_server_config import *
+    from _mp_ds_config import *
     mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
     pos = mc.player.getTilePos();
     x0 = pos.x-25

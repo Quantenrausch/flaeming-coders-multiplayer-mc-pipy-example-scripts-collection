@@ -20,7 +20,7 @@ leftPaddleX = 1
 leftScore = 0
 rightScore = 0
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 board = Board2D(mc, width, boardHeight, distance=20)
 

@@ -31,7 +31,7 @@ def globe(center, radius=40, spacing_degrees=10, block=block.STAINED_GLASS_YELLO
         latitude_degrees += spacing_degrees
         
 if __name__ == "__main__":        
-	from mp_server_config import *
+	from _mp_ds_config import *
 	mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 	center = mc.player.getPos()
 	radius = 40

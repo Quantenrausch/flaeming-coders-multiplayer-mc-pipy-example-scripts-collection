@@ -95,7 +95,7 @@ def tower(x,y,z,width,baseHeight,altHeight,innerHeight,distribution):
     rectangularPrism(x+2,y+innerHeight-1,z+2, x+width-3,y+innerHeight-1,z+width-3, distribution)
 
 
-from mp_server_config import *
+from _mp_ds_config import *
 mc = Minecraft(Connection(serveradress, serverport), name=playernameonserver)
 
 pos = mc.player.getTilePos()
